@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzaria Sabor & Lenha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-red-600 text-white p-6 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🍕 Pizzaria Sabor & Lenha</h1>
+      <nav class="space-x-4">
+        <a href="#cardapio" class="hover:underline">Cardápio</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-yellow-100 py-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">A melhor pizza da cidade, assada no forno à lenha!</h2>
+    <p class="text-lg text-gray-700">Peça agora e receba quentinha na sua casa 🍕🔥</p>
+  </section>
+
+  <!-- Cardápio -->
+  <section id="cardapio" class="max-w-6xl mx-auto py-12">
+    <h3 class="text-2xl font-bold text-center mb-8">Nosso Cardápio</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Pizza 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Pizza Calabresa</h4>
+        <p>Molho de tomate, mussarela, calabresa e cebola.</p>
+        <p class="mt-2 font-bold text-red-600">R$ 39,90</p>
+      </div>
+      <!-- Pizza 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Pizza Marguerita</h4>
+        <p>Molho de tomate, mussarela, tomate e manjericão.</p>
+        <p class="mt-2 font-bold text-red-600">R$ 42,90</p>
+      </div>
+      <!-- Pizza 3 -->
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Pizza Portuguesa</h4>
+        <p>Molho de tomate, mussarela, presunto, ovos, cebola e azeitonas.</p>
+        <p class="mt-2 font-bold text-red-600">R$ 45,90</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-red-50 py-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Fale com a gente</h3>
+      <p class="mb-2">📞 (11) 98765-4321</p>
+      <p class="mb-2">📍 Rua das Pizzas, 123 – São Paulo/SP</p>
+      <p class="mb-4">🕒 Atendimento: Todos os dias, das 18h às 23h</p>
+      <a href="https://wa.me/5511987654321" target="_blank" class="inline-block bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition">
+        Pedir pelo WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-white text-center p-4">
+    © 2025 Pizzaria Sabor & Lenha. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
